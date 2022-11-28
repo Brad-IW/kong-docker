@@ -15,7 +15,7 @@ This guide assumes that [Docker](https://docs.docker.com/get-docker/) has alread
 This optional test plan will take you through creating a basic service and route. This ensures that Kongs main components have been started and are working correctly. The plan assumes that the actions below are performed on a local machine running the docker containers, however this can easily be changed by swapping all instances of `localhost` to the ip address of the machine running docker.
 
 1. Open the Kong Manager by typing `localhost:8002` into your web browser of choice. 
-2. On the 'Workspaces' page scroll down and click on the `default` workspace. 
+2. On the 'Workspaces' page scroll down and click on the 'default' workspace. 
 3. Click services and create a new service.
    - Give the service a name e.g. 'my-service'
    - Select Using URL and add `https://httpbin.org/anything` to the URL parameter.

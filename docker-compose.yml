@@ -1,8 +1,7 @@
 version: '3.9'
 services:
   postgres:
-    image: postgres:9.6-alpine
-    #    image: postgres:13-alpine
+    image: postgres:13-alpine
     restart: always 
     hostname: kong-database
     container_name: kong-database
